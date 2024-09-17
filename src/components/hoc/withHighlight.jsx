@@ -29,7 +29,7 @@ function withHighlight(Component) {
 
   const name = Component.displayName || Component.name || "Component";
 
-  HocComponent.displayName = `withHighlight(${name})`;
+  HocComponent.displayName = `WithHighlight(${name})`;
   HocComponent.propTypes = { views: PropTypes.number.isRequired };
 
   return HocComponent;
